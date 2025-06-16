@@ -2,8 +2,8 @@ import { defineConfig } from "tinacms";
 
 export default defineConfig({
   branch: "main",
-  clientId: "your-client-id", // get from tina cloud
-  token: "your-token", // get from tina cloud
+  clientId: "local",
+  token: "local",
   build: {
     outputFolder: "admin",
     publicFolder: "public",
@@ -67,7 +67,7 @@ export default defineConfig({
                         fields: [
                           {
                             name: "content",
-                            type: "string",
+                            type: "rich-text",
                             label: "Content",
                             ui: { component: "textarea" },
                           },
@@ -130,7 +130,7 @@ export default defineConfig({
                             fields: [
                               {
                                 name: "content",
-                                type: "string",
+                                type: "rich-text",
                                 label: "Content",
                                 ui: { component: "textarea" },
                               },

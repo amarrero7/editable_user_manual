@@ -9,8 +9,6 @@ function generateId(text: string, fallback: string) {
   return text.toLowerCase().replace(/\s+/g, "-");
 }
 
-
-
 export default function EditablePage(props: any) {
   const { data } = useTina(props);
 
