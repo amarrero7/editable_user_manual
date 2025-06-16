@@ -10,11 +10,10 @@
   },
   "dependencies": {
     "@tinacms/toolkit": "^1.7.13",
+    "express": "^5.1.0",
     "next": "15.3.3",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "react-tinacms-editor": "^0.53.26",
-    "react-tinacms-inline": "^0.54.0",
     "tinacms": "^2.7.8"
   },
   "devDependencies": {
