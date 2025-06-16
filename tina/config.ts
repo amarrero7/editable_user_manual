@@ -67,7 +67,7 @@ export default defineConfig({
                         fields: [
                           {
                             name: "content",
-                            type: "rich-text",
+                            type: "string",
                             label: "Content",
                             ui: { component: "textarea" },
                           },
@@ -130,7 +130,7 @@ export default defineConfig({
                             fields: [
                               {
                                 name: "content",
-                                type: "rich-text",
+                                type: "string",
                                 label: "Content",
                                 ui: { component: "textarea" },
                               },

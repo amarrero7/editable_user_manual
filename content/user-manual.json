@@ -52,14 +52,7 @@
       ],
       "subsections": [
         {
-          "title": "New Subsection",
-          "content_blocks": [
-            {
-              "src": "",
-              "width": "",
-              "_template": "image_block"
-            }
-          ]
+          "title": "New Subsection"
         }
       ],
       "_template": "section"

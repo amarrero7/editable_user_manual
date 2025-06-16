@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
+    "dev": "tinacms dev -c \"next dev\"",
+    "build": "tinacms build && next build",
+    "start": "tinacms build && next start"
   },
   "dependencies": {
     "@tinacms/toolkit": "^1.7.13",
@@ -13,6 +13,7 @@
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-tinacms-editor": "^0.53.26",
+    "react-tinacms-inline": "^0.54.0",
     "tinacms": "^2.7.8"
   },
   "devDependencies": {
