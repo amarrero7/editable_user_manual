@@ -24,7 +24,7 @@ jobs:
           node-version: '22.x'
 
       - name: npm install dependencies
-        run: npm install
+        run: npm install --legacy-peer-deps
 
       - name: Build the app
         run: npm run build --if-present
