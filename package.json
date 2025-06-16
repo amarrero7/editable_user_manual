@@ -6,7 +6,7 @@
     "dev": "tinacms dev -c \"next dev\"",
     "tina:generate": "tinacms build --local",
     "build": "tinacms build --local && next build",
-    "start": "tinacms build --local && next start"
+    "start": "next start"
   },
   "dependencies": {
     "@tinacms/toolkit": "^1.7.13",
