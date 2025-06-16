@@ -1,0 +1,68 @@
+{
+  "sections": [
+    {
+      "content_blocks": [
+        {
+          "title": "Introduction ",
+          "_template": "header_block"
+        }
+      ],
+      "subsections": [
+        {
+          "title": "CIRACET ASSET MANAGEMENT SYSTEM (CAMS)",
+          "content_blocks": [
+            {
+              "content": "CIRACET Asset Management System (CAMS) is a web-based information system that manages and contains the entire process of preventive and corrective maintenance for assets (biomedical equipment and physical plant) at its facilities. It includes the equipment inventory, repair requests, work orders, part quotations, and reports.\n",
+              "_template": "text_block"
+            }
+          ]
+        },
+        {
+          "title": "User Login to CAMS",
+          "content_blocks": [
+            {
+              "content": "Access to CAMS is through the Internet using the following link:\n",
+              "_template": "text_block"
+            },
+            {
+              "content": "http://cams.ciracet.com/CiracetV5/Login.aspx ",
+              "_template": "text_block"
+            },
+            {
+              "src": "/cams_login.png",
+              "width": "70%",
+              "height": "70%",
+              "_template": "image_block"
+            },
+            {
+              "content": "Each user will be assigned a username and password to access the information system. Since it is a web-based system, it can be accessed from any electronic device (computer, cellphone, tablet, etc.).",
+              "_template": "text_block"
+            }
+          ]
+        }
+      ],
+      "_template": "section"
+    },
+    {
+      "content_blocks": [
+        {
+          "title": "New Section",
+          "_template": "header_block"
+        }
+      ],
+      "subsections": [
+        {
+          "title": "New Subsection",
+          "content_blocks": [
+            {
+              "src": "",
+              "width": "",
+              "_template": "image_block"
+            }
+          ]
+        }
+      ],
+      "_template": "section"
+    }
+  ]
+}
