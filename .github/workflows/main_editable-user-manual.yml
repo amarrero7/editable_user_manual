@@ -26,6 +26,9 @@ jobs:
       - name: npm install dependencies
         run: npm install --legacy-peer-deps
 
+      - name: Generate Tina Client
+        run: npx tinacms build --no-server
+
       - name: Build the app
         run: npm run build --if-present
 
