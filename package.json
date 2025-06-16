@@ -4,9 +4,9 @@
   "private": true,
   "scripts": {
     "dev": "tinacms dev -c \"next dev\"",
-    "tina:generate": "tinacms build --no-server",
-    "build": "next build",
-    "start": "tinacms build && next start"
+    "tina:generate": "tinacms build --local",
+    "build": "tinacms build --local && next build",
+    "start": "tinacms build --local && next start"
   },
   "dependencies": {
     "@tinacms/toolkit": "^1.7.13",
