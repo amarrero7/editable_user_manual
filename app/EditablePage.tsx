@@ -10,7 +10,7 @@ function generateId(text: string, fallback: string) {
 }
 
 export default function EditablePage(props: any) {
-  const { data } = useTina(props);
+  const { data }: { data: { user_manual: { sections: any[] } } } = useTina(props);
 
   return (
 
